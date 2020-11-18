@@ -1,0 +1,91 @@
+<!-- / +++++++++++++++++++++++++++++++ -->
+<!-- / popup 20201017 -->
+<!-- / +++++++++++++++++++++++++++++++ -->
+<script>
+    var dttl_popup_1017 = document.createElement("div");
+        var spantag = document.createElement("span");
+        var atag = document.createElement("a");
+        var imgtag = document.createElement("img");
+        var dttl_layer = document.createElement("div");
+        var dttl_wrapper = document.createElement("div");
+
+        spantag.innerText = "X";
+        dttl_layer.setAttribute("id", "dttl-layer");
+        dttl_popup_1017.setAttribute("id", "dttl-popup-1017");
+        dttl_wrapper.setAttribute("class", "dttl-wrapper");
+
+        dttl_popup_1017.setAttribute("style", "position: fixed;top: 0; z-index: 30; padding-top:50px; width: 100vw;");
+        dttl_layer.setAttribute("style", "position: absolute; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); top: 0; bottom: 0;");
+        dttl_wrapper.setAttribute("style", "position: relative; z-index: 130;");
+        atag.setAttribute("style", "width: 100%; max-width: 630px;");
+        spantag.setAttribute("style", "font-size: 30px; color: red; text-align: right; display: block; width: 100%; max-width: 630px; margin: auto; cursor: pointer");
+        imgtag.setAttribute("style", "width: 100%; max-width: 630px;")
+
+        atag.appendChild(imgtag);
+        dttl_wrapper.appendChild(spantag);
+        dttl_wrapper.appendChild(atag);
+        dttl_popup_1017.appendChild(dttl_wrapper);
+        dttl_popup_1017.appendChild(dttl_layer);
+
+        if (window.location.href == "https://jemmia.vn/kim-cuong-nuoc-nao-la-tot-nhat-dep-nhat" ||
+            window.location.href == "https://jemmia.vn/kiem-dinh-kim-cuong-gia-giv" ||
+            window.location.href == "https://jemmia.vn/bong-tai-hot-xoan-3-ly-6" ||
+            window.location.href == "https://jemmia.vn/nhan-kim-cuong-nam-dep" ||
+            window.location.href == "https://jemmia.vn/kim-cuong-moissanite-va-kim-cuong-tu-nhien" ||
+            window.location.href == "https://jemmia.vn/kim-cuong-3-ly-gia-bao-nhieu-tien" ||
+            window.location.href == "https://jemmia.vn/kim-cuong-tam-2-ly-gia-bao-nhieu-tien" ||
+            window.location.href == "https://jemmia.vn/nhan-cap-vang-danh-cho-tinh-nhan" ||
+            window.location.href == "https://jemmia.vn/nhan-cau-hon-nen-deo-ngon-tay-nao-deo-ban-tay-nao-trai-hay-phai" ||
+            window.location.href == "https://jemmia.vn/kim-cuong-khong-giay-kiem-dinh" ||
+            window.location.href == "https://jemmia.vn/kim-cuong-5-ly-gia-bao-nhieu-tien" ||
+            window.location.href == "https://jemmia.vn/ban-nhan-kim-cuong-lo-bao-nhieu-tien" ||
+            window.location.href == "https://jemmia.vn/hot-xoan-5-ly-4-gia-bao-nhieu" ||
+            window.location.href == "https://jemmia.vn/nhan-em-be-vang-18k" ||
+            window.location.href == "https://jemmia.vn/kim-cuong-4-ly-5-gia-bao-nhieu-tien.html" ||
+            window.location.href == "https://jemmia.vn/hot-xoan-khac-kim-cuong-nhu-the-nao.html"
+        ) {
+            imgtag.setAttribute("src", "https://jemmia.vn/wp-content/uploads/2020/10/popup-01_7014391719743a87683f4952ae29fd5a.png");
+            atag.setAttribute("href", "https://www.facebook.com/Jemmia.vn/");
+            document.body.appendChild(dttl_popup_1017);
+            dttl_layer.addEventListener("click", () => {
+                dttl_popup_1017.setAttribute("style", "display: none");
+            })
+            spantag.addEventListener("click", () => {
+                dttl_popup_1017.setAttribute("style", "display: none");
+            })
+            dttl_wrapper.addEventListener("click", () => {
+                dttl_popup_1017.setAttribute("style", "display: none");
+            })
+        } else if (window.location.href == "https://jemmia.vn/bang-gia-kim-cuong-tu-nhien") {
+            setTimeout(() => {
+                imgtag.setAttribute("src", "https://jemmia.vn/wp-content/uploads/2020/10/popup-moissanite.png");
+                atag.setAttribute("href", "https://www.facebook.com/Jemmia.vn/");
+                document.body.appendChild(dttl_popup_1017);
+                dttl_layer.addEventListener("click", () => {
+                    dttl_popup_1017.setAttribute("style", "display: none");
+                })
+                spantag.addEventListener("click", () => {
+                    dttl_popup_1017.setAttribute("style", "display: none");
+                })
+                dttl_wrapper.addEventListener("click", () => {
+                    dttl_popup_1017.setAttribute("style", "display: none");
+                })
+            }, 30000)
+        } else if (window.location.href == "https://jemmia.vn/") {
+            imgtag.setAttribute("src", "https://jemmia.vn/wp-content/uploads/2020/10/diamond_sale_pop-up-01.png");
+            atag.setAttribute("href", "https://jemmia.vn/bang-gia-kim-cuong-tu-nhien");
+            document.body.appendChild(dttl_popup_1017);
+            dttl_layer.addEventListener("click", () => {
+                dttl_popup_1017.setAttribute("style", "display: none");
+            })
+            spantag.addEventListener("click", () => {
+                dttl_popup_1017.setAttribute("style", "display: none");
+            })
+            dttl_wrapper.addEventListener("click", () => {
+                dttl_popup_1017.setAttribute("style", "display: none");
+            })
+        }
+</script>
+<!-- / +++++++++++++++++++++++++++++++ -->
+<!-- / end popup 20201017 -->
+<!-- / +++++++++++++++++++++++++++++++ -->
